@@ -1,5 +1,8 @@
 {
   "expo": {
+    "experiments": {
+      "baseUrl": "/VideoCallSim"
+    },
     "name": "VideoCallSim",
     "slug": "VideoCallSim",
     "version": "1.0.0",
@@ -13,13 +16,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.riand.VideoCallSim"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.riand.VideoCallSim"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7a2ecd92-b60e-4d08-9250-37d34d9e7c50"
+      }
     }
   }
 }
