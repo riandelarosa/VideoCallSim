@@ -1,8 +1,5 @@
 {
   "expo": {
-    "experiments": {
-      "baseUrl": "/VideoCallSim"
-    },
     "name": "VideoCallSim",
     "slug": "VideoCallSim",
     "version": "1.0.0",
@@ -35,7 +32,7 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "baseUrl": "/VideoCallSim"
     },
     "extra": {
       "router": {
